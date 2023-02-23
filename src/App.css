@@ -45,3 +45,31 @@
   font-weight: bold;
 }
 
+.button:hover .button:active {
+  background: #54bedb;
+}
+
+.fileUploaderContainer {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  color: #777777;
+  padding: .5rem;
+  margin-bottom: .5rem;
+  border: .185rem dashed #777777;
+  border-radius: .5rem;
+}
+
+.fileUploaderContainer [type=file] {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 100%;
+  min-width: 100%;
+  font-size: 999px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  cursor: pointer;
+}

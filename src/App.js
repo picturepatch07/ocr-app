@@ -9,7 +9,7 @@ function App() {
 
       <section className='hero'>
         <label className='fileUploaderContainer'>
-          click here to upload images
+          Choose an Image
           <input type='file' id='fileUploader' multiple/>
         </label>
 
